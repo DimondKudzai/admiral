@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +20,22 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    
+    <style type="text/css">
+    .alert-banner {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    }
+    .close {
+    border-radius: 15%;
+    border: .001px solid grey;
+    padding: .4em;
+    }
+    </style>
 
   </head>
 
@@ -35,7 +52,29 @@
       </div>
     </div>
   </div>
-  <!-- ***** Preloader End ***** -->
+  
+  <!-- ***** Preloader End and start of disclaimer ***** -->
+  
+ 
+
+ <div id="archive-disclaimer" class="modal fade">
+ <div class="modal-dialog">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title">About this version</h5>
+ <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ <span aria-hidden="true">&times;</span>
+ </button>
+ </div>
+ <div class="modal-body">
+ <p>This is an archived copy of the Admiral Academy website, created in 2023. Some links may not be functional.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+
+
+
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
@@ -48,19 +87,18 @@
                         <h1>Admiral</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
-                    <!-- ***** Serach St-->
-                    <!-- ***** Serach Start ***** -->
+                   
                     <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
+
+                    <ul class="nav" style="">
                       <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                       <li class="scroll-to-section"><a href="#services">Services</a></li>
                       <li class="scroll-to-section"><a href="#courses">Lessons</a></li>
                       <li class="scroll-to-section"><a href="#team">Team</a></li>
-                    <!--  <li class="scroll-to-section"><a href="#events">Events</a></li>-->
-                      <li class="scroll-to-section"><a href="#contact">Enroll!</a></li>
-<li class="scroll-to-section"><a href="#about">About this site</a></li>
+                      <li class="scroll-to-section"><a href="#about" class="">About<a/></li>
+
                   </ul>   
-                    <a class='menu-trigger'>
+                   <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
                     <!-- ***** Menu End ***** -->
@@ -82,8 +120,7 @@
                 <h2>With Admiral Teachers, Everything Is Easier</h2>
                 <p>Admiral is an Academy that specializes in highschool lessons</p>
                <!-- <div class="buttons">
-                 <!-- <div class="main-button">
-                  <!--  <a href="#">Request Demo</a>
+                 
                   </div>
                   <div class="icon-button">-->
                     <a href="#"><i class="fa fa-play"></i> What's Admirial?</a>
@@ -153,6 +190,8 @@
             </div>
           </div>
         </div>
+        
+        <!--
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
@@ -164,6 +203,8 @@
             </div>
           </div>
         </div>
+        
+        -->
       </div>
     </div>
   </div>
@@ -186,60 +227,7 @@
               </div>
             </div>
 </div>
-      <!--     <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  How do we work together?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Dolor <str
-                </div>
-              </div>
-            </div>
-
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Why Admiral is the best?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  We teach according to official academic syllabus. Our teachers are qualified and we have enough resources to produce great results.
-                </div>
-              </div>
-            </div>
-           <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Do we get the best support?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                </code>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <div class="section-heading">
-            <h6>About Us</h6>
-            <h2>What make us the best academy?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore mag</p>
-            <div class="main-button">
-              <a href="#">Discover More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
-
+     
   <section class="section courses" id="courses" >
     <div class="container">
       <div class="row">
@@ -254,9 +242,7 @@
         <li>
           <a class="is_active" href="#" data-filter="*"> </a>
         </li>
-        <li>
-          <a href="#!" data-filter=".design">Web development</a>
-        </li>
+  
         <li>
           <a href="#!" data-filter=".development">Arts subjects</a>
         </li>
@@ -265,7 +251,8 @@
         </li>
       </ul>
       <div class="row event_box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+        
+        <!--<div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
           <div class="events_item">
             <div class="thumb">
               <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
@@ -273,10 +260,12 @@
               <span class="price"><h6><em>$</em>16/month</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Dimond Madechawo</span>
+              <span class="author"></span>
               <h4>Learn Web Design and development</h4>
             </div>
           </div>
+          -->
+          
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
           <div class="events_item">
@@ -286,7 +275,7 @@
               <span class="price"><h6><em>$</em>15/month</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Lecture Moyo</span>
+              <span class="author"></span>
               <h4>Learn from the most qualified tutor in town.</h4>
             </div>
           </div>
@@ -299,7 +288,7 @@
               <span class="price"><h6><em>$</em>15/month</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Adimire </span>
+              <span class="author"> </span>
               <h4>Learn from the most qualified tutor in town.</h4>
             </div>
           </div>
@@ -312,7 +301,7 @@
               <span class="price"><h6><em>$</em>15/month</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Adorable</span>
+              <span class="author"></span>
               <h4>Learn from the most qualified tutor in town.</h4>
             </div>
           </div>
@@ -325,7 +314,7 @@
               <span class="price"><h6><em>$</em>15/month</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Admire</span>
+              <span class="author"></span>
               <h4>Be a European history Master</h4>
             </div>
           </div>
@@ -338,8 +327,8 @@
               <span class="price"><h6><em>$</em>15/month</h6></span>
             </div>
             <div class="down-content">
-              <span class="author">Admire</span>
-              <h4>Be a African history Master</h4>
+              <span class="author"></span>
+              <h4>We get you covered on you History studies</h4>
             </div>
           </div>
         </div>
@@ -391,213 +380,68 @@
           <div class="team-member">
             <div class="main-content">
               <img src="assets/images/admire.jpg" alt="">
-              <span class="category">Principal</span>
-              <h4>Mr Admire</h4>
+              <span class="category">Director / Arts subjects Head</span>
+              <h4>Sir Admire</h4>
               <ul class="social-icons">
-                <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="team-member">
-            <div class="main-content">
-              <img src="assets/images/dimond1.jpg" alt="" style="width:205px">
-              <span class="category"><br>Web development Teacher</span>
-              <h4>Mr Dimond</h4>
-              <ul class="social-icons">
-                <li><a href="https://www.facebook.com/profile.php?id=100079989520136"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
+  
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
               <img src="assets/images/member-03.jpg" alt="">
-              <span class="category">Commercial subjects teacher</span>
-              <h4>Mr lecture</h4>
+              <span class="category">Commercial subjects Head</span>
+              <h4>Mr lecture M</h4>
               <ul class="social-icons">
-                <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
+        
+        <div class="col-lg-3 col-md-6">
+        <div class="team-member">
+        <div class="main-content">
+        <img src="assets/images/dimond1.jpg" alt="" style="width:205px">
+        <span class="category"><br> IT - Web Dev</span>
+        <h4>Mr Dimond M</h4>
+        <ul class="social-icons">
+        <li><a href="https://www.facebook.com/profile.php?id=100079989520136"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        
+        <!--
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
               <img src="assets/images/admire.jpg" alt="">
-              <span class="category">Arts subjects teacher</span>
-              <h4>Mr Admire</h4>
+              <span class="category">Arts subjects Head</span>
+              <h4>Sir Admire</h4>
               <ul class="social-icons">
-                <li><a href="www.facebook.com"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
+        -->
 </div>
 </div>
 </div>
   
-<!--<div class="section testimonials">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <div class="owl-carousel owl-testimonials">
-            <div class="item">
-              <p>“Please tell your friends or collegues about TemplateMo website. Anyone can access the website to download free templates. Thank you for visiting.”</p>
-              <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
-                <span class="category">Full Stack Master</span>
-                <h4>Claude David</h4>
-              </div>
-            </div>
-            <div class="item">
-              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid.”</p>
-              <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
-                <span class="category">UI Expert</span>
-                <h4>Thomas Jefferson</h4>
-              </div>
-            </div>
-            <div class="item">
-              <p>“Scholar is free website template provided by TemplateMo for educational related websites. This CSS layout is based on Bootstrap v5.3.0 framework.”</p>
-              <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
-                <span class="category">Digital Animator</span>
-                <h4>Stella Blair</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <div class="section-heading">
-            <h6>TESTIMONIALS</h6>
-            <h2>What they say about us?</h2>
-            <p>You can search free CSS templates on Google using different keywords such as templatemo portfolio, templatemo gallery, templatemo blue color, etc.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="section events" id="events">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <div class="section-heading">
-            <h6>Schedule</h6>
-            <h2>Upcoming Events</h2>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/event-01.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Web Design</span>
-                    <h4>UI Best Practices</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>16 Feb 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>22 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$120</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/event-02.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Front End</span>
-                    <h4>New Design Trend</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>24 Feb 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>30 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$320</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-6">
-          <div class="item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="image">
-                  <img src="assets/images/event-03.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <ul>
-                  <li>
-                    <span class="category">Full Stack</span>
-                    <h4>Web Programming</h4>
-                  </li>
-                  <li>
-                    <span>Date:</span>
-                    <h6>12 Mar 2036</h6>
-                  </li>
-                  <li>
-                    <span>Duration:</span>
-                    <h6>48 Hours</h6>
-                  </li>
-                  <li>
-                    <span>Price:</span>
-                    <h6>$440</h6>
-                  </li>
-                </ul>
-                <a href="#"><i class="fa fa-angle-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
--->
   <div class="contact-us section" id="contact">
     <div class="container">
       <div class="row">
@@ -644,7 +488,7 @@
   <footer id="about">
     <div class="container">
       <div class="">
-        <center style="color:"><p>&copy2023 Admiral Lessons. Developer: Dimond Madechawo</p></center>
+        <center style="color:"><p>&copy2023 Admiral Academy. <br>Developer: Dimond Madechawo</p></center>
       </div>
     </div>
   </footer>
@@ -658,5 +502,17 @@
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
 
+ 
+ 
+<script type="text/javascript">
+ // Add to your JavaScript file
+ $(document).ready(function() {
+ $('#archive-disclaimer').modal('show');
+  $('.close').click(function(){ 
+
+$("#archive-disclaimer").modal('hide');
+  })
+ });
+ </script>
   </body>
 </html>
